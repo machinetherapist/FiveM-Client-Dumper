@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "com.gitlab.marcodsl"
-version = "1.0-SNAPSHOT"
+version = "1.0.1-SNAPSHOT"
 
 repositories {
     mavenCentral()
