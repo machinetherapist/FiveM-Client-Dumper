@@ -55,7 +55,7 @@ class Resource(val name: String, private val rootFolder: String) {
         val matches = "([\"'])(?:(?=(\\\\?))\\2.)*?\\1".toRegex().findAll(manifest)
 
         files = matches.map { it.groupValues[0] }.map { it.replace("'", "").replace("\"", "") }
-            .filter { !it.contains("@") }.toMutableList()
+            .filter { !it.contains("@") && it.last() != '/' }.toMutableList()
     }
 
     fun saveManifestToFile() {
