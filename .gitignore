@@ -64,4 +64,5 @@ atlassian-ide-plugin.xml
 # NetBeans specific files/directories
 .nbattrs
 
+*.js
 [0-255].[0-255].[0-255].[0-255]
