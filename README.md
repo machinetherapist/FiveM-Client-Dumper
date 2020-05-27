@@ -12,9 +12,9 @@ para um servidor HTTP local. Em seguida, os arquivos recebidos são salvos no di
 ## Como usar
 
 1. Certifique-se de que a última versão do JRE está instalada.
-2. Baixe o arquivo na pagína [RELEASES](https://github.com/marcodsl/FiveM-Client-Dumper/releases/tag/1.0-SNAPSHOT).
+2. Baixe o arquivo na página [RELEASES](https://github.com/marcodsl/FiveM-Client-Dumper/releases/tag/1.0-SNAPSHOT).
 3. Abra o FiveM e entre no servidor cujo client-side deseja obter.
-3. Execute ```java -jar fivem-client-dumper-1.0-SNAPSHAT-all.jar -a [Endereço IP]``` no seu CLI preferida.
+3. Execute ```java -jar fivem-client-dumper-1.0-SNAPSHAT-all.jar -a [Endereço IP]``` no sua CLI preferida.
 5. Aguarde o fim da execução do programa.
 
 ## Perguntas Frequentes
